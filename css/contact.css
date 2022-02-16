@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Alte Haas Grotesk';
+    src: url(../fonts/altehaasgroteskbold-webfont.woff2) format("woff2"), url(../fonts/altehaasgroteskbold-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: 'Lavanderia';
+    src: url(../fonts/lavanderia_regular-webfont.woff2) format("woff2"), url(../fonts/lavanderia_regular-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/opensans-regular-webfont.woff2) format("woff2"), url(../fonts/opensans-regular-webfont.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  
+  body {
+      line-height: 1;
+    
+     
+  }
+  
+  
+  .navbar {  background-color: rgba(255, 255, 255, 0.7);
+    min-height: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+   
+  }
+  .sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+  }
+  #sect {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar {
+    justify-content: center;
+    display: flex;
+  }
+  .img1{ background-color: pink;
+  
+    border: 2px solid pink;
+  }
+  span {
+    font-family:'Lavanderia' ;
+    font-size: xx-large;
+    
+  
+  }
+  .graff{ color: pink;}
+  
+  h1{
+    font-family: 'Alte Haas Grotesk';
+    font-size: 68.99px;
+   
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+   
+    
+    
+  }
+  h4{
+    font-size: 25px;
+    color: #404040;
+  
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #e9e6e6;
+    padding: 20px;
+  }
+ 
